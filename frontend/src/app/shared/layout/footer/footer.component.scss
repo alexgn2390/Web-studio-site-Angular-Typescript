@@ -1,0 +1,109 @@
+@import "../../../../assets/styles/variables";
+@import "../../../../assets/styles/modal-window";
+
+.footer {
+  padding: 40px 0 54px 0;
+  background-color: #B9D5FD;
+
+  .container {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    .logo {
+      margin-right: 40px;
+    }
+
+    .footer-top {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+
+      nav {
+        ul {
+          margin-right: 140px;
+          padding: 0;
+          display: flex;
+          color: $black-text-color;
+
+
+          li {
+            margin-right: 30px;
+            list-style: none;
+
+
+            a {
+              cursor: pointer;
+              text-decoration: none;
+              color: $black-text-color;
+
+              &.active {
+                color: #709FDC;
+              }
+
+              &:hover {
+                color: #709FDC;
+              }
+
+            }
+          }
+        }
+      }
+    }
+
+    .footer-contacts {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 6px;
+
+      .footer-contacts-info {
+        margin-right: 60px;
+
+        .footer-contacts-info-title {
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          color: $blue-text-color;
+          margin-bottom: 10px;
+        }
+
+        .footer-contacts-info-text {
+          color: $black-text-color;
+          margin-bottom: 10px;
+          line-height: 130%;
+
+          &.footer-contacts-info-text-small {
+            font-size: 14px;
+
+          }
+        }
+
+        button.button {
+          font-size: 12px;
+          font-weight: 500;
+          width: 153px;
+          padding: 10px 20px;
+        }
+
+        .footer-contacts-info-social {
+          display: flex;
+          align-items: center;
+
+          .footer-contacts-info-social-icon {
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+
+    .footer-info {
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      color: $blue-text-color;
+    }
+  }
+}

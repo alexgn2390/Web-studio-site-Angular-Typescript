@@ -1,0 +1,62 @@
+@import "../../../../assets/styles/variables";
+
+
+.header {
+  padding: 40px 0 40px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    nav  {
+      ul {
+        margin-right: 140px;
+        padding: 0;
+        display: flex;
+        color: $black-text-color;
+
+
+        li {
+          margin-right: 30px;
+          list-style: none;
+          a {
+            cursor: pointer;
+            text-decoration: none;
+            color: $black-text-color;
+            &.active {
+              color: $blue-text-color;
+            }
+            &:hover {
+              color: $blue-text-color;
+            }
+
+          }
+        }
+      }
+    }
+
+
+    .header-phone {
+      color: $blue-text-color;
+    }
+
+    .header-enter-account {
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 7px;
+      }
+
+      a {
+        text-decoration: none;
+        color: $black-text-color;
+        cursor: pointer;
+      }
+    }
+  }
+}

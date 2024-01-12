@@ -1,0 +1,16 @@
+<div class="article-card" >
+  <div class="article-card-image">
+    <img src="{{serverStaticPath + article.image}}" alt="блог">
+    <div class="article-card-image-article">
+      {{article.category}}
+    </div>
+  </div>
+
+  <div class="article-card-title">
+    {{article.title}}
+  </div>
+  <div class="article-card-description">
+    {{article.description}}
+  </div>
+  <a [routerLink]="'/articles/' + article.url">Читать дальше</a>
+</div>

@@ -1,0 +1,16 @@
+@import "variables";
+
+@mixin text-montserrat-14 {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: $black-text-color;
+}
+@mixin head-lora-38 {
+  color: $blue-text-color;
+  font-family: Lora, sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+}
